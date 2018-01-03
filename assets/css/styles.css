@@ -1,0 +1,109 @@
+body {
+    background: #ffd180;
+    background: url('../img/background.jpg') no-repeat fixed center;
+}
+
+.login-page {
+    width: 1440px;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.content {
+    position: relative;
+    background: white;
+    max-width: 1440px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.en-link i {
+    color: black;
+}
+
+.en-link i:hover {
+    color: #ffaf00;
+}
+
+.en-breadcrumb {
+    background-color: white;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.en-breadcrumb .breadcrumb {
+    color: black;
+}
+
+.en-breadcrumb .breadcrumb::before {
+    color: black;
+}
+
+.en-breadcrumb .breadcrumb:hover {
+    color: #ffaf00;
+}
+
+.en-breadcrumb .en-breadcrumb-active:hover {
+    color: black;
+}
+
+.en-add-link {
+    vertical-align: 100%;
+    color: black;
+}
+
+.en-add-link:hover + #en-add-box {
+    color: #ffaf00;
+}
+
+.en-fieldset {
+    margin-bottom: 20px;
+}
+
+.en-fieldset a {
+    color: black;
+}
+
+.en-fieldset a:hover {
+    color: #ffaf00;
+}
+
+.en-fieldset a:focus {
+    color: #ffaf00;
+}
+
+.en-fieldset a:active {
+    color: #ffaf00;
+}
+
+.en-fieldset .en-field-active {
+    color: #cc7c00;
+}
+
+.en-fieldset .en-field-active:hover {
+    color: #cc7c00;
+}
+
+.en-fieldset .en-field-active:focus {
+    color: #cc7c00;
+}
+
+.en-fieldset .en-field-active:active {
+    color: #cc7c00;
+}
+
+.en-fieldset-detail {
+    margin-top: 12%;
+}
+
+.en-h5-title {
+    margin-top: 20px;
+}
+
+#en-map {
+    width: 100%;
+    height: 500px;
+}
