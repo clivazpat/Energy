@@ -3,6 +3,8 @@ namespace Energy;
 
 use Energy\Library\Router;
 
+//test
+
 session_start();
 
 //Define constant
